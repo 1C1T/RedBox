@@ -2,15 +2,22 @@
 import os
 import re
 import sys
-import PIL
 import time
 import ctypes
 import winreg
 import psutil
 import inspect
-import tkinter
 import pystray
-import pygments
 import threading
 import subprocess
+import tkinter as tk
+import tkinter.font as tk_font
+from tkinter import (messagebox, filedialog, ttk)
+from tkinter.colorchooser import askcolor
+from yaml import load, dump, FullLoader
+from pygments.lexers import LuaLexer
+from pygments import lex
+from ctypes import wintypes
+from PIL import Image
+from lua54 import LuaRuntime
 import theRedBox
