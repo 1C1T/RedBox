@@ -19,5 +19,5 @@ from pygments.lexers import LuaLexer
 from pygments import lex
 from ctypes import wintypes
 from PIL import Image
-from lua54 import LuaRuntime
+from lua51 import LuaRuntime
 import theRedBox
