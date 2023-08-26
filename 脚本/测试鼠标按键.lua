@@ -7,7 +7,9 @@ function OnEvent(event, arg)
 		elseif arg == 3 then
 			OutputLogMessage("按下了鼠标中键\n")
 		elseif arg == 4 then
-			OutputLogMessage("按下了鼠标侧键\n")
+			OutputLogMessage("按下了鼠标后侧键x1\n")
+		elseif arg == 5 then
+			OutputLogMessage("按下了鼠标前侧键x2\n")
 		end
 	elseif event == "MOUSE_BUTTON_RELEASED" then
 		if arg == 1 then
@@ -17,10 +19,11 @@ function OnEvent(event, arg)
 		elseif arg == 3 then
 			OutputLogMessage("弹起了鼠标中键\n")
 		elseif arg == 4 then
-			OutputLogMessage("弹起了鼠标侧键\n")
+			OutputLogMessage("弹起了鼠标后侧键x1\n")
+		elseif arg == 5 then
+			OutputLogMessage("弹起了鼠标前侧键x2\n")
 		end
 	end
-	
 end
 
 
